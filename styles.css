@@ -11,4 +11,16 @@ body{
 }
 nav{
     display: flex;
+    justify-content: space-between;
+    padding: 1rem;
     }
+    nav ul{
+        list-style: none;
+        display: flex;
+        gap: 4rem;
+    }
+    .Tech{
+background: color #00ffb3;
+min-height: 8rem;
+    }
+    
