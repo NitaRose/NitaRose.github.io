@@ -4,6 +4,7 @@
 ::after{
     box-sizing: border-box;
     margin: 0;
+    background-color: #00ff73;
 }
 
 body{
@@ -14,13 +15,36 @@ nav{
     justify-content: space-between;
     padding: 1rem;
     }
+
     nav ul{
         list-style: none;
         display: flex;
         gap: 4rem;
     }
-    .Tech{
-background: color #00ffb3;
-min-height: 8rem;
+    .ProDetails{
+        display: flex;
+        border: 4px dashed #ccff00;
+        padding: 10px;
+        border-radius: 25px;
+        background-color: #00ffb3;
     }
-    
+    .AboutMe{
+        display: flex;
+    }
+
+    .Tech{
+        display: flex;
+        background-color: #00ff33;
+        text-emphasis-color: #3300ff;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 30rem;
+    }
+    .Tdetails{
+        display: flex;                   
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+        
+    }
