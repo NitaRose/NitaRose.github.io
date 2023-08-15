@@ -4,11 +4,22 @@
 ::after{
     box-sizing: border-box;
     margin: 0;
-    background-color: #ede2d5;
+    
 }
-
+.hero{
+background-image: url(https://media.licdn.com/dms/image/D4E16AQG8Ea26uqNFpg/profile-displaybackgroundimage-shrink_350_1400/0/1692131446340?e=1697673600&v=beta&t=KuHHqCLaqnN1QLc5uwaTSdKZqzvKfxARooKx4ofuDZU);
+min-height: 30rem;
+color: #6e1db5;
+}
 body{
     min-height: 100vh;
+    background: color #;
+    color: #000;
+}
+.img-Container{
+    display: flex;
+    border: #d5e0ed;
+    border-radius:0%
 }
 nav{
     display: flex;
@@ -37,13 +48,16 @@ nav{
     flex-wrap: wrap;
     
     }
+    .Section2{
+         
+
+    }
     .ProDetails{
         display: flex;
         border: 4px dashed #d5e0ed;
-        padding: 10px;
+        padding: unset;
         max-width: 650px;
-        border-radius: 25px;
-        background-color: #d5ede2;
+        border-radius: 25px;        
         flex-wrap: wrap;
         
     }
@@ -52,8 +66,7 @@ nav{
         border: 4px solid #d5e0ed;
         max-width: 650px;
         display: flex;
-        background-color: #d5ede2;
-        text-decoration-color: #44321d;
+        
         flex-wrap: wrap;
         justify-content: center;
         max-width: 30rem;
@@ -61,8 +74,7 @@ nav{
 
     .Tech{
         display: flex;
-        background-color: #ede2d5;
-        text-decoration-color: #edd5e0;
+                
         flex-wrap: wrap;
         justify-content: center;
         max-width: 30rem;
@@ -72,10 +84,8 @@ nav{
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: center;
-        flex-direction: row;
-        
-        background-color: #ede2d5;
-        text-decoration-color: #edd5e0;        
+        flex-direction: row;   
+                
         max-width: 30rem;
         
     }
