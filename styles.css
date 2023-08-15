@@ -48,6 +48,7 @@ nav{
         display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+    align-self: center;
     
     }
     .Section2{
@@ -58,7 +59,7 @@ nav{
         display: flex;
         border: 4px dashed #d5e0ed;
         padding: unset;
-        max-width: 650px;
+        max-width: unset;
         border-radius: 25px;        
         flex-wrap: wrap;
         
