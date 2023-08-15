@@ -13,9 +13,10 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
-    align-items: flex-end;
-    }
+    padding: unset;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
 
     nav ul{
         list-style: none;
@@ -26,13 +27,15 @@ nav{
         flex-wrap: wrap;
         align-items: center;
     }
+    .nav-Container{
+        display: flex;
+        align-self: right;
+    }
     .img-Container{
-        
-            text-align: -moz-center;
-            text-align: -webkit-center;
-            text-align: -o-center;
-            text-align: center;
-        
+        display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;            
     }
     .ProDetails{
         display: flex;
@@ -42,11 +45,18 @@ nav{
         border-radius: 25px;
         background-color: #d5ede2;
         flex-wrap: wrap;
-        flex-direction: column-reverse;
+        
     }
     .AboutMe{
         display: flex;
+        border: 4px solid #d5e0ed;
         max-width: 650px;
+        display: flex;
+        background-color: #d5ede2;
+        text-decoration-color: #44321d;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 30rem;
     }
 
     .Tech{
@@ -63,5 +73,9 @@ nav{
         flex-wrap: wrap;
         align-items: center;
         flex-direction: row;
+        
+        background-color: #ede2d5;
+        text-decoration-color: #edd5e0;        
+        max-width: 30rem;
         
     }
