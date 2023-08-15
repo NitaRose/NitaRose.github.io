@@ -14,12 +14,17 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+    align-items: flex-end;
     }
 
     nav ul{
         list-style: none;
         display: flex;
         gap: 4rem;
+        flex-direction: column;
+        align-self: flex-end;
+        flex-wrap: wrap;
+        align-items: center;
     }
     .img-Container{
         
