@@ -4,7 +4,7 @@
 ::after{
     box-sizing: border-box;
     margin: 0;
-    background-color: #00ff73;
+    background-color: #ede2d5;
 }
 
 body{
@@ -21,21 +21,33 @@ nav{
         display: flex;
         gap: 4rem;
     }
+    .img-Container{
+        
+            text-align: -moz-center;
+            text-align: -webkit-center;
+            text-align: -o-center;
+            text-align: center;
+        
+    }
     .ProDetails{
         display: flex;
-        border: 4px dashed #ccff00;
+        border: 4px dashed #d5e0ed;
         padding: 10px;
+        max-width: 650px;
         border-radius: 25px;
-        background-color: #00ffb3;
+        background-color: #d5ede2;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
     }
     .AboutMe{
         display: flex;
+        max-width: 650px;
     }
 
     .Tech{
         display: flex;
-        background-color: #00ff33;
-        text-emphasis-color: #3300ff;
+        background-color: #ede2d5;
+        text-decoration-color: #edd5e0;
         flex-wrap: wrap;
         justify-content: center;
         max-width: 30rem;
